@@ -124,12 +124,10 @@ project/
 ├─ start/          # 启动文件、CMSIS 内核支持（startup_stm32f10x_md.s）
 ├─ library/        # STM32F10x 标准外设库
 ├─ system/         # Delay 延时
-├─ hardware/       # LED / key / lightsensor / buzzer / hc05 / I2C / bh1750 / pwm
+├─ hardware/       # LED /hc05 / I2C / bh1750 / pwm
 ├─ user/           # main.c、中断服务函数、外设配置汇总
 └─ 1.uvprojx       # Keil 工程文件
 ```
-
-`hardware/` 中真正参与本项目功能的是 **hc05、I2C、bh1750、pwm** 四个模块；
 
 ## 开发过程中踩的坑
 
